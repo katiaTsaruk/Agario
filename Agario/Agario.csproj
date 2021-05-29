@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>AeroHockey</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CSFML" Version="2.5.0" />
+      <PackageReference Include="SFML.Net" Version="2.5.0" />
+      <PackageReference Include="SFML.Utils" Version="0.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="GreenScreen.cs" />
+    </ItemGroup>
+
+</Project>
