@@ -10,6 +10,9 @@ namespace Agario
     {
         private const int windowWidth = 1280;
         private const int windowHeight = 720;
+        public List<Circle> AllCircles = new List<Circle>();
+        private Circle circle = new Circle(windowWidth, windowHeight);
+        private int amountOfCircles = 0;
 
         public Game()
         {
@@ -21,12 +24,19 @@ namespace Agario
             RenderWindow window = new RenderWindow(new VideoMode(windowWidth, windowHeight), "Game window");
             window.Closed += WindowClosed;
 
+            while (amountOfCircles <= 100)
+            {
+                window.Draw(circle.circleShape);
+                circle.SetCircle();
+                amountOfCircles++;
+            }
+
             while (window.IsOpen)
             {
-                window.Clear(Color.Cyan);
-               
-                window.DispatchEvents();
-                window.Display();
+               window.Clear();
+
+               window.DispatchEvents();
+               window.Display();
             }
         }
         
@@ -35,15 +45,5 @@ namespace Agario
             RenderWindow w = (RenderWindow)sender;
             w.Close();
         }
-
-        // moglo bi bit krasivo no vidimo net(((
-        // private void Background()
-        // {
-        //     Texture t=new Texture("picture");
-        //     Image image=new Image("picture.jpg");
-        //     Sprite sprite = new Sprite();
-        //     sprite.Texture = new Texture(t);
-        //     window.Draw(sprite);
-        // }
     }
 }
