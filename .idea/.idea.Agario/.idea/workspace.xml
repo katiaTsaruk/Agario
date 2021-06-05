@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8e8f2bf-cd64-443e-8999-cd26fbf108f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Agario/Circle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Agario/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agario/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Agario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Agario/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Agario/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Circle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Agario/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Agario/Game.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,7 +75,8 @@
       <workItem from="1622309254493" duration="1196000" />
       <workItem from="1622312642810" duration="121000" />
       <workItem from="1622312870974" duration="1072000" />
-      <workItem from="1622648447169" duration="6338000" />
+      <workItem from="1622648447169" duration="7237000" />
+      <workItem from="1622902084571" duration="13772000" />
     </task>
     <servers />
   </component>
